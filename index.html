@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Drum kit test</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+
+
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="">Play drums in the browser!</h1>
+        <p>Type the corresponding letter to play the sound.</p>
+        <div class="keys ghffsaf">
+            <div data-key="65" class="key btn btn-primary btn-lg">
+                <kbd>A</kbd>
+                <span class="sound">Kick</span>
+            </div>
+            <div data-key="83" class="key btn btn-primary btn-lg">
+                <kbd>S</kbd>
+                <span class="sound">Hihat</span>
+            </div>
+            <div data-key="68" class="key btn btn-primary btn-lg">
+                <kbd>D</kbd>
+                <span class="sound">Snare</span>
+            </div>
+            <div data-key="70" class="key btn btn-primary btn-lg">
+                <kbd>F</kbd>
+                <span class="sound">Crash</span>
+            </div>
+            <div data-key="71" class="key btn btn-primary btn-lg">
+                <kbd>G</kbd>
+                <span class="sound">Clap</span>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- SAMPLES AND DATA KEYS -->
+    <audio data-key="65" src="sounds/kick.wav"></audio>
+    <audio data-key="68" src="sounds/snare.wav"></audio>
+    <audio data-key="83" src="sounds/hihat.wav"></audio>
+    <audio data-key="70" src="sounds/crash.wav"></audio>
+    <audio data-key="71" src="sounds/clap.wav"></audio>
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+.keys {
+    display: flex;
+    padding: 10px;
+}
+
+.key {
+    padding: 10px;
+    margin: 10px;
+    transition: all 0.07s;
+}
+
+.playing {
+    transform: scale(1.1);
+}
