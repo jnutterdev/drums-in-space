@@ -3,7 +3,6 @@ body {
     font-family: 'Space Mono', monospace;
     color: white;
     text-align: center;
-    
 }
 
 .keys {
@@ -23,4 +22,12 @@ body {
 
 h1 {
     margin-top: 70px;
+}
+
+.keys {
+    margin-top: 150px;
+}
+
+.key {
+    margin: 0 auto;
 }
