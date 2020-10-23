@@ -7,18 +7,18 @@
     <title>Drums in Space</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"><link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
 
 
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
     <div class="container">
         <h1 class="">Drums in Space</h1>
         <p>Type the corresponding letter to play the sound.</p>
-        <div class="keys">
-            <div data-key="65" class="key btn btn-primary btn-lg" id="kick">
+        <div class="keys ghffsaf">
+            <div data-key="65" class="key btn btn-primary btn-lg">
                 <kbd>A</kbd>
                 <span class="sound">Kick</span>
             </div>
@@ -43,25 +43,14 @@
 
 
     <!-- SAMPLES AND DATA KEYS -->
-    <audio data-key="65" src="sounds/kick.wav" key="65"></audio>
+    <audio data-key="65" src="sounds/kick.wav"></audio>
     <audio data-key="68" src="sounds/snare.wav"></audio>
     <audio data-key="83" src="sounds/hihat.wav"></audio>
     <audio data-key="70" src="sounds/crash.wav"></audio>
     <audio data-key="71" src="sounds/clap.wav"></audio>
 
-    <!-- RANDOM FACT GENERATOR-->
-    <div class="facts-container">
-        <div id="space-fact">
-            <p><!--Fact here--></p>
-        </div>
-    </div>
-    
 
-
-    <script src="js/p5/p5.js"></script>
-    <script src="js/p5/addons/p5.sound.js"></script>
-    <script src="js/drums.js" defer></script>
-    <script src="js/facts.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>

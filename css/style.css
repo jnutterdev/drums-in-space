@@ -24,10 +24,25 @@ h1 {
     margin-top: 70px;
 }
 
+
 .keys {
     margin-top: 150px;
 }
 
 .key {
     margin: 0 auto;
+}
+
+.facts-container {
+    position: fixed;
+    left: 0;
+    bottom: 50px;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Space Mono', monospace;
+}
+
+.facts-container h3 {
+    padding: 10px;
 }
