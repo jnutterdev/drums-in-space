@@ -1,8 +1,14 @@
+html {
+    height:100%;
+    box-sizing: border-box;
+    }
+
 body {
     background-color: #1a1f24;
     font-family: 'Space Mono', monospace;
     color: white;
     text-align: center;
+    min-height: 100%;
 }
 
 .keys {
@@ -24,6 +30,13 @@ h1 {
     margin-top: 70px;
 }
 
+.visualizer {
+    margin: 0;
+    overflow: hidden;
+    bottom: 0px;
+    position: absolute; 
+    min-width: 100%;   
+}
 
 .keys {
     margin-top: 150px;
@@ -46,3 +59,4 @@ h1 {
 .facts-container h3 {
     padding: 10px;
 }
+
