@@ -1,9 +1,3 @@
-let drm;
-
-function setup() {
-    drm.mouseClicked(playSound);
-}
-
 function playSound(e) {
 
     const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
@@ -16,9 +10,6 @@ function playSound(e) {
     key.classList.add('playing');
 }
 
-function mouseClicked(f) {
-    document.getElementById("kick");
-}
 
 
 function removeTransition(g) {
