@@ -20,7 +20,7 @@
         <h1 class="">Drums in Space</h1>
         <p>Type the corresponding letter to play the sound.</p>
         <div class="keys">
-            <div data-key="65" class="key btn btn-primary btn-lg">
+            <div data-key="65" class="key btn btn-primary btn-lg" id="kick">
                 <kbd>A</kbd>
                 <span class="sound">Kick</span>
             </div>
@@ -45,7 +45,7 @@
 
 
     <!-- SAMPLES AND DATA KEYS -->
-    <audio data-key="65" src="sounds/kick.wav"></audio>
+    <audio data-key="65" src="sounds/kick.wav" key="65"></audio>
     <audio data-key="68" src="sounds/snare.wav"></audio>
     <audio data-key="83" src="sounds/hihat.wav"></audio>
     <audio data-key="70" src="sounds/crash.wav"></audio>
@@ -54,7 +54,7 @@
 
     <script src="js/p5/p5.js"></script>
     <script src="js/p5/addons/p5.sound.js"></script>
-    <script src="js/drums.js"></script>
+    <script src="js/drums.js" defer></script>
 </body>
 
 </html>

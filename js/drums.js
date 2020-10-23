@@ -1,4 +1,8 @@
-// Function for setting variables & playing the sounds
+let drm;
+
+function setup() {
+    drm.mouseClicked(playSound);
+}
 
 function playSound(e) {
 
@@ -6,23 +10,20 @@ function playSound(e) {
     const key = document.querySelector(`.key[data-key="${e.keyCode}"]`);
 
     if (!audio) return;
-
     audio.currentTime = 0;
+
     audio.play();
     key.classList.add('playing');
 }
 
-function clickSound(f) {
-
-    const clicked = document.querySelector(`audio[data-key="${f.keyCode}"]`);
-
-    clicked.play();
+function mouseClicked(f) {
+    document.getElementById("kick");
 }
 
 
-function removeTransition(e) {
+function removeTransition(g) {
 
-    if (e.propertyName !== 'transform') return;
+    if (g.propertyName !== 'transform') return;
     this.classList.remove('playing');
 }
 
@@ -31,4 +32,3 @@ function removeTransition(e) {
 const keys = document.querySelectorAll('.key');
 keys.forEach(key => key.addEventListener('transitionend', removeTransition));
 document.addEventListener('keydown', playSound);
-document.addEventListener('click', clickSound);
