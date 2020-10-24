@@ -3,7 +3,6 @@ function setup() {
 
     var canvas = createCanvas(2000, 170);
     canvas.parent('visualizer');
-
     frameRate(30)
     background(0)
     line(50, 50, 500, height);
@@ -19,10 +18,10 @@ function setup() {
 
 function draw() {
     background(26, 31, 36)
-    translate(5, height/2);
-    const distributionFrequency = 0.03
+    translate(5, height/1.5);
+    const distributionFrequency = 0.02
     for (let x = 0; x < width; x++) {
-        const y = animLoop.noise1D(x * distributionFrequency) * height /2
+        const y = animLoop.noise1D(x * distributionFrequency) * height /2.5
         ellipse(x, y, 3)
     }
     
