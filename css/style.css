@@ -65,10 +65,21 @@ h1 {
     padding: 5px;
 }
 
+.creator {
+    margin-bottom: 10px;
+}
+
 .creator-name {
+    margin-top: 20px;
     padding: 10px;
+    font-weight: bold;
 }
 
 .creator-bio {
     padding: 20px;
+}
+
+.icon {
+    margin: 5px;
+    padding: 5px;
 }
