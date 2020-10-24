@@ -1,7 +1,9 @@
 
 function setup() {
+
     var canvas = createCanvas(2000, 170);
     canvas.parent('visualizer');
+
     frameRate(30)
     background(0)
     line(50, 50, 500, height);
@@ -12,7 +14,7 @@ function setup() {
         noiseRadius: 0.2 
         
     })
-       
+
 }
 
 function draw() {
