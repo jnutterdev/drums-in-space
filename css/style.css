@@ -47,11 +47,8 @@ h1 {
 }
 
 .facts-container {
-    position: fixed;
-    left: 0;
-    bottom: 50px;
+    position: relative;
     width: 100%;
-    padding: 20px;
     text-align: center;
     font-family: 'Space Mono', monospace;
 }
@@ -60,3 +57,11 @@ h1 {
     padding: 10px;
 }
 
+.creators {
+    margin-top: 50px;
+    padding: 5px;
+}
+
+.creator-name {
+    padding: 10px;
+}
