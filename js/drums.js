@@ -16,7 +16,7 @@ function kickDrum() {
 
 function hihatDrum() {
     const hihat = document.getElementById('hihat');
-    kick.currentTime = 0;
+    hihat.currentTime = 0;
     if (!hihat) return;
     hihat.play();
 }
