@@ -71,15 +71,17 @@ h1 {
 
 .creator-name {
     margin-top: 20px;
-    padding: 10px;
+    padding: 5px;
     font-weight: bold;
 }
 
 .creator-bio {
-    padding: 20px;
+    padding: 10px;
 }
 
 .icon {
-    margin: 5px;
-    padding: 5px;
+    margin: 2.5px;
+    padding: 2.5px;
+    height: 40px;
+    width: 40px;
 }
