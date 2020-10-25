@@ -39,45 +39,43 @@
 
     <div class="container">
         <h1 class="">Drums in Space</h1>
-        <a href="#" onclick="window.open('popup.html', 'example', 'width=300,height=600')">Click here for more info</a>
+        <a href="#" onclick="window.open('popup.html', 'example',  'width=300,height=600')">Click here for more info</a>
         <div class="keys">
-            <div data-key="65" class="key btn btn-link btn-sm" onclick="kick.play()">
-
-
-
+            <div data-key="65" class="key btn btn-link btn-sm" onclick="kickDrum()">
+                <audio data-key="65" src="sounds/kick.wav" id="kick"></audio>
                 <img src="planets/mercury-transparent.png" class="img-fluid" alt="Responsive image">
 
             </div>
-            <div data-key="83" class="key btn btn-link btn-sm" onclick="clickedSound(kick)">
-
+            <div data-key="83" class="key btn btn-link btn-sm" onclick="hihatDrum()">
+                <audio data-key="83" src="sounds/hihat.wav" id="hihat"></audio>
                 <img src="planets/venus-transparent.png" class="img-fluid" alt="Responsive image">
             </div>
-            <div data-key="68" class="key btn btn-link  btn-sm" onclick="clickedSound(hihat)">
-
+            <div data-key="68" class="key btn btn-link  btn-sm" onclick="snareDrum()">
+                <audio data-key="68" src="sounds/snare.wav" id="snare"></audio>
                 <img src="planets/earth-transparent.png" class="img-fluid" alt="Responsive image">
             </div>
-            <div data-key="70" class="key btn btn-link  btn-sm" onclick="crash.play()">
+            <div data-key="70" class="key btn btn-link  btn-sm" onclick="crashDrum()">
 
                 <img src="planets/mars-transparent.png" class="img-fluid" alt="Responsive image">
             </div>
-            <div data-key="71" class="key btn btn-link  btn-sm" onclick="clap.play()">
+            <div data-key="71" class="key btn btn-link  btn-sm" onclick="clapdrum()">
 
                 <img src="planets/mars-transparent.png" class="img-fluid" alt="Responsive image">
             </div>
-            <div data-key="72" class="key btn btn-link  btn-sm" onclick="tom.play()">
+            <div data-key="72" class="key btn btn-link  btn-sm" onclick="tomDrum()">
 
                 <img src="planets/jupiter-transparent.png" class="img-fluid" alt="Responsive image">
             </div>
 
-            <div data-key="74" class="key btn btn-link  btn-sm" onclick="cowbell.play()">
+            <div data-key="74" class="key btn btn-link  btn-sm" onclick="cowbellDrum()">
 
                 <img src="planets/saturn-transparent.png" class="img-fluid" alt="Responsive image">
             </div>
-            <div data-key="75" class="key btn btn-link  btn-sm" onclick="zap.play()">
+            <div data-key="75" class="key btn btn-link  btn-sm" onclick="zapDrum()">
 
                 <img src="planets/uranus-transparent.png" class="img-fluid" alt="Responsive image">
             </div>
-            <div data-key="76" class="key btn btn-link  btn-sm" onclick="laser.play()">
+            <div data-key="76" class="key btn btn-link  btn-sm" onclick="laserDrum()">
 
                 <img src="planets/neptune-transparent.png" class="img-fluid" alt="Responsive image">
             </div>
@@ -87,9 +85,9 @@
 
     <!-- SAMPLES AND DATA KEYS -->
     <div id="drumkit">
-        <audio data-key="65" src="sounds/kick.wav" id="kick"></audio>
-        <audio data-key="68" src="sounds/snare.wav" id="snare"></audio>
-        <audio data-key="83" src="sounds/hihat.wav" id="hihat"></audio>
+
+
+
         <audio data-key="70" src="sounds/crash.wav" id="crash"></audio>
         <audio data-key="71" src="sounds/clap.wav" id="clap"></audio>
         <audio data-key="72" src="sounds/tom.wav" id="tom"></audio>
