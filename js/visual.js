@@ -6,7 +6,7 @@ function setup() {
     frameRate(30)
     background(0)
     line(50, 50, 500, height);
-    fill(127)
+    fill(100)
     stroke(500)
     createLoop({
         gif: {fileName: "noiseLoop1d.gif", render: false},
