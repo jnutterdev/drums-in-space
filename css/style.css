@@ -34,7 +34,7 @@ h1 {
     margin: 0;
     overflow: hidden;
     bottom: -20px;
-    position: relative;
+    position: absolute;
     min-width: 100%;
 }
 
