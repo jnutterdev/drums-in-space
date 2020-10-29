@@ -24,7 +24,7 @@ function draw() {
         const y = animLoop.noise1D(x * distributionFrequency) * height /2.5
         ellipse(x, y, 3)
     }
-    
+ 
     
 }
 
