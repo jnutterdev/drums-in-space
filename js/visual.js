@@ -17,7 +17,7 @@ function setup() {
 }
 
 function draw() {
-    background(26, 31, 36)
+    background(26, 31, 36); 
     translate(5, height/1.5);
     const distributionFrequency = 0.02
     for (let x = 0; x < width; x++) {
