@@ -52,8 +52,8 @@ h1 {
 #visualizer {
     margin: 0;
     overflow: hidden;
-    bottom: -20px;
-    position: absolute;
+    /* bottom: -20px; */
+    /* position: absolute; */
     min-width: 100%;
 }
 
@@ -67,9 +67,7 @@ h1 {
 
 .facts-container {
     position: relative;
-
     margin-top: 90px;
-
     width: 100%;
     text-align: center;
     font-family: 'Space Mono', monospace;
