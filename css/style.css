@@ -50,11 +50,12 @@ h1 {
 }
 
 #visualizer {
-    margin: 0;
-    overflow: hidden;
-    /* bottom: -20px; */
-    /* position: absolute; */
-    min-width: 100%;
+    margin-top: 90px;
+    /* overflow: hidden; */
+    /* bottom: -20px;
+    position: absolute; */
+    /* min-width: 100%; */
+    
 }
 
 .keys {
