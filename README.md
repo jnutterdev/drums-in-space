@@ -7,14 +7,14 @@ A drum machine app with ~ s p a c e y ~ elements.
 Visit [Drums in Space](drumsinspace.com) and click the planets to hear their assigned noises and enjoy the P5 Visualizer. 
 Space facts from [The Solar System OpenData](https://api.le-systeme-solaire.net/en/).
 
-- Mercury # Kick
-- Venus # Hihat
-- Earth # Snare
-- Mars # Crash
-- Jupiter # Clap
-- Saturn # Tom
-- Uranus # Cowbell
-- Neptune # Zap
+- Mercury - Kick
+- Venus - Hihat
+- Earth - Snare
+- Mars -Crash
+- Jupiter - Clap
+- Saturn - Tom
+- Uranus - Cowbell
+- Neptune - Zap
 
 
 ## About
