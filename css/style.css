@@ -130,3 +130,7 @@ li {
       transform: translate(1%, -2%) rotate(-1deg);
     }
   }
+
+  .space {
+      background-image: url("images/space.jpg")
+  }
