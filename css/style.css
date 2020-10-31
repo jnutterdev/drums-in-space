@@ -138,3 +138,8 @@ li {
 .pattern ul li {
     display: block;
 }
+
+.pattern input {
+    width: 50px;
+    height: 50px;
+}
