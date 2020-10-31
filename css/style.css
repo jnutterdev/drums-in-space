@@ -86,6 +86,7 @@ h1 {
 
 .creator {
     margin-bottom: 10px;
+    position: relative;
 }
 
 .creator-name {
