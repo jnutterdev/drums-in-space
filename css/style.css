@@ -104,7 +104,7 @@ h1 {
 
 ul {
     list-style-type: none;
-    text-align: left:
+    text-align: left;
 }
 
 li {
@@ -132,5 +132,6 @@ li {
   }
 
   .space {
-      background-image: url("images/space.jpg")
+      background-image: url("../images/space.jpg") !important;
+      background-size: cover;
   }
