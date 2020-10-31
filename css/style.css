@@ -135,6 +135,10 @@ li {
     background-size: cover;
 }
 
+.pattern {
+    display: inline-block;
+}
+
 .pattern ul li {
     display: block;
 }
@@ -142,4 +146,47 @@ li {
 .pattern input {
     width: 50px;
     height: 50px;
+    cursor: pointer;
+}
+
+h4 {
+    display: inline-flex;
+    overflow: hidden;
+}
+
+input[type="checkbox"] {
+    -webkit-appearance: initial;
+    appearance: initial;
+    background: gray;
+    width: 40px;
+    height: 40px;
+    border: none;
+    background: gray;
+    position: relative;
+    border-radius: 50px;
+}
+
+input[type="checkbox"]:checked {
+    background: white;
+}
+
+input[type="checkbox"]:checked:after {
+    /* Heres your symbol replacement - this is a tick in Unicode. */
+    content: url("../images/aliensm.png");
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.space-controls {
+    margin: 0 auto;
+    background-color: black;
+    width: 50%;
+    height: 60%;
+    padding: 20px 0;
 }

@@ -25,17 +25,20 @@ function repeat(time) {
     index++;
 }
 
+var now = Tone.now();
 
 Tone.loaded().then(() => {
     startButton.addEventListener('click', () => {
+        Tone.Transport.start(now + 0.1);
         Tone.Transport.setLoopPoints(0, "1m");
         Tone.Transport.bpm.rampTo(110);
         Tone.Transport.scheduleRepeat(repeat, '8n');
-        Tone.Transport.start();
+
     });
 
     stopButton.addEventListener('click', () => {
-        Tone.Transport.stop();
+        Tone.Transport.stop(now);
+
     });
 
 });
