@@ -55,6 +55,11 @@ h1 {
     /* max-width: 100%; */
 }
 
+.p5Canvas {
+    max-width: 100%;
+    margin: 0;
+}
+
 .keys {
     margin-top: 150px;
 }
@@ -162,6 +167,11 @@ input[type="checkbox"] {
     background: gray;
     position: relative;
     border-radius: 50px;
+}
+
+input[type="checkbox"]:nth-child(4),
+input[type="checkbox"]:nth-child(8) {
+    background: lightgray;
 }
 
 input[type="checkbox"]:checked {
