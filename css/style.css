@@ -52,7 +52,7 @@ h1 {
     /* overflow: hidden; */
     /* bottom: -20px;
     position: absolute; */
-    /* min-width: 100%; */
+    /* max-width: 100%; */
 }
 
 .keys {
