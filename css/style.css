@@ -181,10 +181,18 @@ input[type="checkbox"]:checked:after {
     transform: translate(-50%, -50%);
 }
 
+.spacer-area {
+    margin-top: 150px;
+}
+
 .space-controls {
     margin: 0 auto;
     background-color: #0b0904;
     width: 50%;
     height: 60%;
     padding: 20px 0;
+}
+
+.space-controls>h4 {
+    padding: 2%;
 }
