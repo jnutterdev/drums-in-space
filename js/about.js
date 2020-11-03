@@ -1,7 +1,7 @@
 
 //pull the data from the API
 
-fetch('http://api.open-notify.org/astros.json') 
+fetch('https://cors-anywhere.herokuapp.com/https://admiring-brown-29c503.netlify.app/astros.json') 
     .then((response) => response.json()) // translate data to Json
     .then((data) => { 
         document.getElementById('space-fact').innerHTML = (renderPeopleInSpaceFacts(data)); // display the space facts 
