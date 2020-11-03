@@ -12,7 +12,7 @@ let renderSpaceFacts = (spaceArray) => {
     let randomArrayItem = Math.floor((Math.random() * 286) +1); // choose random number to find that item in array 
     return `
     <h4><b>SPACE FACT OF THE DAY</b></h4>
-            The planet ${spaceArray.bodies[randomArrayItem].englishName} was discovered by ${spaceArray.bodies[randomArrayItem].discoveredBy} and is called "${spaceArray.bodies[randomArrayItem].id}" in French.
+            <p>The planet ${spaceArray.bodies[randomArrayItem].englishName} was discovered by ${spaceArray.bodies[randomArrayItem].discoveredBy} and is called "${spaceArray.bodies[randomArrayItem].id}" in French.
     `
 }
 
