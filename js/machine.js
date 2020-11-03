@@ -3,8 +3,13 @@ const stopButton = document.getElementById("stop-button");
 
 const drumKit = [
     new Tone.Player("../sounds/kick.wav"),
+    new Tone.Player("../sounds/hihat.wav"),
+    new Tone.Player("../sounds/snare.wav"),
+    new Tone.Player("../sounds/crash.wav"),
     new Tone.Player("../sounds/clap.wav"),
-    new Tone.Player("../sounds/hihat.wav")
+    new Tone.Player("../sounds/tom.wav"),
+    new Tone.Player("../sounds/cowbell.wav"),
+    new Tone.Player("../sounds/zap.wav")
 ];
 
 drumKit.forEach(drum => drum.toMaster());
