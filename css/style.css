@@ -185,7 +185,7 @@ input[type="checkbox"]:checked:after {
 
 .space-controls {
     margin: 0 auto;
-    background-color: black;
+    background-color: #0b0904;
     width: 50%;
     height: 60%;
     padding: 20px 0;
