@@ -1,7 +1,7 @@
 
 //pull the data from the API
 
-fetch('https://api.le-systeme-solaire.net/rest/bodies/') 
+fetch('https://cors-anywhere.herokuapp.com/https://admiring-brown-29c503.netlify.app/astros.json')
     .then((response) => response.json()) // translate data to Json
     .then((data) => { 
         document.getElementById('space-fact').innerHTML = (renderSpaceFacts(data)); // display the space facts 
