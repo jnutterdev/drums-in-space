@@ -12,7 +12,7 @@ const drumKit = [
     new Tone.Player("../sounds/zap.wav")
 ];
 
-drumKit.forEach(drum => drum.toMaster());
+drumKit.forEach(drum => drum.toDestination());
 
 const rows = document.body.querySelectorAll('div > div'),
     notes = ['c1', 'c2', 'c3'];
@@ -34,12 +34,16 @@ var now = Tone.now();
 
 Tone.loaded().then(() => {
     startButton.addEventListener('click', () => {
-        Tone.Transport.start(now + 0.1);
-        Tone.Transport.setLoopPoints(0, "1m");
-        Tone.Transport.bpm.rampTo(110);
-        Tone.Transport.scheduleRepeat(repeat, '8n');
+        Tone.context.resume().then(() => {
+            Tone.Transport.start(now + 0.1);
+            Tone.Transport.setLoopPoints(0, "1m");
+            Tone.Transport.bpm.rampTo(110);
+            Tone.Transport.scheduleRepeat(repeat, '8n');
+        });
 
-    });
+
+    })
+
 
     stopButton.addEventListener('click', () => {
         Tone.Transport.stop(now);
